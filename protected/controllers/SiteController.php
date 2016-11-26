@@ -39,7 +39,7 @@ class SiteController extends Controller
             if($model->validate()){
                 $model->save();
                 Yii::app()->dpsMailer->sendByView(
-                     array( 'a.s.kashtanov@gmail.com' => 'Username' ),
+                     array( 'feedback@example.com' => 'Username' ),
                      'emailTpl', // template email view
                      array(
                           'sUsername' => $_POST['EmailHistory']['u_name'],
