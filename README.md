@@ -3,8 +3,7 @@
 
 
 Демонстрация: 
- 
-# wickflame.top
+wickflame.top
 
 Установка:
 
