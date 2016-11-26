@@ -1,0 +1,6 @@
+<?
+
+/** @var dpsEmailController $this */ ?>
+
+
+<?= $content ?>
