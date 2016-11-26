@@ -11,9 +11,9 @@ wickflame.top
 где WebRoot — корневая директория приложения, предполагается что yii уже установлен,
 testdrive — директория нашего приложения
 
-2)Используя свои настройки для MySql редактируем файл testdrive/protected/config/database.php 
+2) Используя свои настройки для MySql редактируем файл testdrive/protected/config/database.php 
 
-3)Также необходимы настройки почтового сервера, редактируем dpsMailer в файле testdrive/protected/config/main.php
+3) Также необходимы настройки почтового сервера, редактируем dpsMailer в файле testdrive/protected/config/main.php
 
 4) Для работы приложения необходима таблица email_history.
 Создать ее можно при помощи подготовленной миграции,
