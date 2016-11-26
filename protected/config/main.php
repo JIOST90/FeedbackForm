@@ -52,7 +52,7 @@ return array(
                              'Port'          => '587',
                              'Encryption'    => 'tls',
                              'Username'      => 'zakaz@web-dn.com',
-                             'Password'      => '1234567',
+                             'Password'      => '**********',
                         ),
                    ),
               ),
