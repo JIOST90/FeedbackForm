@@ -13,7 +13,9 @@ testdrive — директория нашего приложения
 
 2)Используя свои настройки для MySql редактируем файл testdrive/protected/config/database.php 
 
-3) Для работы приложения необходима таблица email_history.
+3)Также необходимы настройки почтового сервера, редактируем dpsMailer в файле testdrive/protected/config/main.php
+
+4) Для работы приложения необходима таблица email_history.
 Создать ее можно при помощи подготовленной миграции,
 запустите команду в консоли php testdrive/protected/yiic.php migrat
 
