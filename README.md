@@ -10,5 +10,5 @@ testdrive — директория нашего приложения
 2)Используя свои настройки для MySql редактируем файл testdrive/protected/config/database.php 
 
 3) Для работы приложения необходима таблица email_history.
-Создать ее можно с помощью миграции,
-запустите команду в консоли php protected/yiic.php migrat, находясь в папке проекта testdrive
+Создать ее можно при помощи подготовленной миграции,
+запустите команду в консоли php testdrive/protected/yiic.php migrat
