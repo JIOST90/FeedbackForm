@@ -15,7 +15,7 @@ class m161125_201111_create_email_history extends CDbMigration
 
     public function safeDown()
     {
-        $this->dropTable('tbl_news');
+        $this->dropTable('email_history');
     }
 
 	/*
