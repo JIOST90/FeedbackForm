@@ -32,7 +32,7 @@ class SiteController extends Controller
         if(isset($_POST['EmailHistory']))
         {
             // получаем данные от пользователя
-            $model->attributes = $_POST['EmailHistory'];
+            $model->attributes = Yii::app()->request->getPost('EmailHistory');
             // проверяем полученные данные и, если результат проверки положительный,
             // перенаправляем пользователя на предыдущую страницу
 
