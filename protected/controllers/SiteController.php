@@ -32,7 +32,8 @@ class SiteController extends Controller
         if(isset($_POST['EmailHistory']))
         {
             // получаем данные от пользователя
-            $model->attributes = Yii::app()->request->getPost('EmailHistory');
+	    $data_post = Yii::app()->request->getPost('EmailHistory');			
+            $model->attributes = $data_post;
             // проверяем полученные данные и, если результат проверки положительный,
             // перенаправляем пользователя на предыдущую страницу
 
@@ -42,9 +43,9 @@ class SiteController extends Controller
                      array( 'feedback@example.com' => 'Username' ),
                      'emailTpl', // template email view
                      array(
-                          'sUsername' => $_POST['EmailHistory']['u_name'],
-                          'sUseremail' => $_POST['EmailHistory']['u_email'],
-                          'sUsermessage' => $_POST['EmailHistory']['u_message'],
+                          'sUsername' => $data_post['u_name'],
+                          'sUseremail' => $data_post['u_email'],
+                          'sUsermessage' => $data_post['u_message'],
                      )
                 );
             }
