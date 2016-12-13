@@ -7,12 +7,15 @@
 ### Yii EAuth extension
 - позволяет выполнять аутентификацию пользователей с учетными записями на других сайтах расширение использует EOAuth и loid
 - git clone https://github.com/Nodge/yii-eauth.git
+>
 ### Yii EOAuth extension
 - реализует протокол OAuth
 - git clone https://github.com/jorgebg/yii-eoauth.git
+>
 ### Yii 1.1: loid
 - реализует поддержку LightOpenID класса в Yii Framework
 - git clone https://github.com/GOshaSaveiko/loid.git
+>
 ### yii-curl
 - Curl Обертка для фреймворка
 - git clone https://github.com/hackerone/curl.git
