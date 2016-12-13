@@ -4,7 +4,7 @@
 
 Для работы сервиса необходимы следующие расширения:
 
-### Yii EAuth extension
+- ### Yii EAuth extension
 ##### расширение использует EOAuth и loid
 позволяет выполнять аутентификацию пользователей с учетными записями на других сайтах
 - clone https://github.com/Nodge/yii-eauth.git
