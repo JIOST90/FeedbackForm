@@ -5,8 +5,9 @@
 ### Для работы сервиса необходимы следующие расширения:
 >
 ### Yii EAuth extension
-- позволяет выполнять аутентификацию пользователей с учетными записями на других сайтах расширение использует EOAuth и loid
+- позволяет выполнять аутентификацию пользователей с учетными записями на других сайтах
 - git clone https://github.com/Nodge/yii-eauth.git
+- расширение использует EOAuth и loid
 >
 ### Yii EOAuth extension
 - реализует протокол OAuth
@@ -15,6 +16,7 @@
 ### Yii 1.1: loid
 - реализует поддержку LightOpenID класса в Yii Framework
 - git clone https://github.com/GOshaSaveiko/loid.git
+- расширение использует curl
 >
 ### yii-curl
 - Curl Обертка для фреймворка
