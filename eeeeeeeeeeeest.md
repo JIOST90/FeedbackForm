@@ -21,9 +21,11 @@
 ### yii-curl
 - Curl Обертка для фреймворка
 - git clone https://github.com/hackerone/curl.git
+>
+Распаковать расширения в директорию protected/extensions
 
 ### Установка
-- Распаковать расширения в директорию  `protected/extensions`
+- используя миграцию в `sovets\protected\migrations` создать таблицы user_network и user_network_bind
 - Добавить следующие строки в файл конфигурации 
 ```php
 ...
