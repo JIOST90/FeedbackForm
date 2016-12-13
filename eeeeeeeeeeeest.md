@@ -8,8 +8,9 @@
 >
 ##### расширение использует EOAuth и loid
 позволяет выполнять аутентификацию пользователей с учетными записями на других сайтах
+#### Установка
 - clone https://github.com/Nodge/yii-eauth.git
-- Место установки protected/extensions1
+- Место установки protected/extensions
 
 ### Yii EOAuth extension
 >
