@@ -10,8 +10,10 @@
 
 > Место установки `protected/extensions`
 
-### Yii EOAuth extension
-реализует протокол OAuth
+> ### Yii EOAuth extension
+
+> реализует протокол OAuth
+
 > clone https://github.com/jorgebg/yii-eoauth.git
 
 > Место установки `protected/extensions`
