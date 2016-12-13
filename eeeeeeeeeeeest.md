@@ -6,9 +6,9 @@
 
 ### Yii EAuth extension
 позволяет выполнять аутентификацию пользователей с учетными записями на других сайтах
-> clone https://github.com/Nodge/yii-eauth.git
+- `clone https://github.com/Nodge/yii-eauth.git`
 
-> Место установки `protected/extensions`
+- `Место установки protected/extensions1
 
 > ### Yii EOAuth extension
 
