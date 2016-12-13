@@ -13,7 +13,7 @@
 - реализует протокол OAuth
 - git clone https://github.com/jorgebg/yii-eoauth.git
 >
-### Yii 1.1: loid
+### Yii loid extension
 - реализует поддержку LightOpenID класса в Yii Framework
 - git clone https://github.com/GOshaSaveiko/loid.git
 - расширение использует curl
