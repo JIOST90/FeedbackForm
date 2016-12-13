@@ -24,7 +24,7 @@
 ...
     'components'=>array(
     ...
-            'eauth' => array(
+        'eauth' => array(
             'class' => 'ext.eauth.EAuth',
             'popup' => true, // Использовать всплывающее окно вместо перенаправления на сайт провайдера
             'cache' => false, // Названия компнента для кеширования. False для отключения кеша. По умолчанию 'cache'.
