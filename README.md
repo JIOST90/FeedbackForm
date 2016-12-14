@@ -17,7 +17,7 @@ testdrive — директория нашего приложения
 
 4) Для работы приложения необходима таблица email_history.
 Создать ее можно при помощи подготовленной миграции,
-запустите команду в консоли php testdrive/protected/yiic.php migrat
+запустите команду в консоли php testdrive/protected/yiic.php migrate
 
 Параметры используемого сервера:
  -Apache-2.4
